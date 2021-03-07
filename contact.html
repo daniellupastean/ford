@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ford | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" />
+</head>
+
+<body id="contact">
+    <header>
+        <img src="imagini/logo.png" id="logo">
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Acasa</li>
+                </a>
+                <a href="modele.html">
+                    <li>Modele</li>
+                </a>
+                <a href="despre.html">
+                    <li>Despre</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <br><br>
+        <div class="container">
+            <form action="contact.html">
+                <label for="lname">Nume</label>
+                <input type="text" id="lname" name="lastname" placeholder="Nume..">
+
+                <label for="fname">Prenume</label>
+                <input type="text" id="fname" name="firstname" placeholder="Prenume..">
+
+                <label for="country">Tara</label>
+                <select id="country" name="tara">
+                    <option value="romania">Romania</option>
+                    <option value="moldova">Moldova</option>
+                </select>
+
+                <label for="subject">Mesaj</label>
+                <textarea id="subject" name="subject" placeholder="..." style="height:200px"></textarea>
+
+                <input type="submit" value="Trimite">
+            </form>
+        </div>
+        <br><br>
+
+    </section>
+    <footer>
+        <p><small>&copy; Copyright 2019, Dani Corporation</small></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
